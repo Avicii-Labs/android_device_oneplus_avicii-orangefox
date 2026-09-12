@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022-2025 The OrangeFox Recovery Project
+# Copyright (C) 2022-2026 The OrangeFox Recovery Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -76,6 +76,8 @@
 	export OF_ALLOW_DISABLE_NAVBAR=0
 	export OF_CLOCK_POS=1
 	
-	# R11.3 Settings
-	export FOX_MAINTAINER_PATCH_VERSION="1"
-	export OF_MAINTAINER="Sreeshankar K"
+        # Torch
+        export OF_FL_PATH1="/sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-05/c440000.qcom,spmi:qcom,pm8150l@5:qcom,leds@d300/leds/led:switch_2/"
+	# R12.2 Settings
+	export FOX_MAINTAINER_PATCH_VERSION="2"
+	export OF_MAINTAINER="NoEscape.exe"
