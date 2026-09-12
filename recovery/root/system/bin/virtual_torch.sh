@@ -36,6 +36,6 @@ while usleep 100000; do
     echo $STRENGTH > $TORCH_1
 
     if [ "$CURRENT_VAL" -ne 0 ]; then
-        echo 255 > $TORCH_SWITCH
+        echo 175 > $TORCH_SWITCH
     fi
 done
