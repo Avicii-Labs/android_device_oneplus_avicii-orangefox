@@ -202,7 +202,7 @@ TW_RECOVERY_ADDITIONAL_RELINK_LIBRARY_FILES += \
     
 # OrangeFox Specific Build Flags
 FOX_USE_SPECIFIC_MAGISK_ZIP := $(DEVICE_PATH)/magisk/Magisk-v29.0.zip
-OF_FL_PATH1 := sys/class/leds/led:torch_0
+OF_FL_PATH1 := /tmp/of_torch
 
 # TWRP Debug Flags
 TARGET_USES_LOGD := true

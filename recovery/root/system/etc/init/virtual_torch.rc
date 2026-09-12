@@ -1,0 +1,9 @@
+service virtual_torch /system/bin/virtual_torch.sh
+    user root
+    group root
+    seclabel u:r:recovery:s0
+    disabled
+
+on boot
+    wait /sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-05/c440000.qcom,spmi:qcom,pm8150l@5:qcom,leds@d300/leds/led:torch_0/brightness
+    start virtual_torch
